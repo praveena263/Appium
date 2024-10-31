@@ -1,0 +1,349 @@
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@3.7.8 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230642701 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-15m[AndroidUiautomator2Driver@c081][0m 
+[38;5;-15m[AndroidUiautomator2Driver@c081][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk",
+    "appium:autoGrantPermissions": true
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;149m[1be5de74][0m[38;5;-15m[AndroidUiautomator2Driver@c081][0m Session created with session id: 1be5de74-6eb1-43a6-adab-283df3ef9e92
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/praveenakunche/Library/Android/sdk' (newest first):
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m     /Users/praveenakunche/Library/Android/sdk/build-tools/35.0.0
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;149m[1be5de74][0m[38;5;-15m[AndroidUiautomator2Driver@c081][0m Retrieving device list
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;149m[1be5de74][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;149m[1be5de74][0m[38;5;-15m[AndroidUiautomator2Driver@c081][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;149m[1be5de74][0m[38;5;-15m[AndroidUiautomator2Driver@c081][0m Deleting UiAutomator2 session
+[38;5;149m[1be5de74][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230642736 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;149m[1be5de74][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;149m[1be5de74][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m53 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230642759 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-172m[AndroidUiautomator2Driver@bc97][0m 
+[38;5;-172m[AndroidUiautomator2Driver@bc97][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk",
+    "appium:autoGrantPermissions": true
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;47m[746b6345][0m[38;5;-172m[AndroidUiautomator2Driver@bc97][0m Session created with session id: 746b6345-a370-43c4-a3d1-90faa475cbb8
+[38;5;47m[746b6345][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;47m[746b6345][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;47m[746b6345][0m[38;5;-172m[AndroidUiautomator2Driver@bc97][0m Retrieving device list
+[38;5;47m[746b6345][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;47m[746b6345][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;47m[746b6345][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;47m[746b6345][0m[38;5;-172m[AndroidUiautomator2Driver@bc97][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;47m[746b6345][0m[38;5;-172m[AndroidUiautomator2Driver@bc97][0m Deleting UiAutomator2 session
+[38;5;47m[746b6345][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230642779 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;47m[746b6345][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;47m[746b6345][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m21 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230642782 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;7m[AndroidUiautomator2Driver@2583][0m 
+[38;5;7m[AndroidUiautomator2Driver@2583][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk",
+    "appium:autoGrantPermissions": true
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;142m[172f950f][0m[38;5;7m[AndroidUiautomator2Driver@2583][0m Session created with session id: 172f950f-d5f1-425f-93f4-9c7cdb96c370
+[38;5;142m[172f950f][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;142m[172f950f][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;142m[172f950f][0m[38;5;7m[AndroidUiautomator2Driver@2583][0m Retrieving device list
+[38;5;142m[172f950f][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;142m[172f950f][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;142m[172f950f][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;142m[172f950f][0m[38;5;7m[AndroidUiautomator2Driver@2583][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;142m[172f950f][0m[38;5;7m[AndroidUiautomator2Driver@2583][0m Deleting UiAutomator2 session
+[38;5;142m[172f950f][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230642804 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;142m[172f950f][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;142m[172f950f][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m22 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230642806 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-174m[AndroidUiautomator2Driver@2894][0m 
+[38;5;-174m[AndroidUiautomator2Driver@2894][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk",
+    "appium:autoGrantPermissions": true
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;33m[99be8d20][0m[38;5;-174m[AndroidUiautomator2Driver@2894][0m Session created with session id: 99be8d20-cd9f-4335-8075-0d2d4b954690
+[38;5;33m[99be8d20][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;33m[99be8d20][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;33m[99be8d20][0m[38;5;-174m[AndroidUiautomator2Driver@2894][0m Retrieving device list
+[38;5;33m[99be8d20][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;33m[99be8d20][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;33m[99be8d20][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;33m[99be8d20][0m[38;5;-174m[AndroidUiautomator2Driver@2894][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;33m[99be8d20][0m[38;5;-174m[AndroidUiautomator2Driver@2894][0m Deleting UiAutomator2 session
+[38;5;33m[99be8d20][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230642828 (15:44:02 GMT-0700 (Pacific Daylight Time))
+[38;5;33m[99be8d20][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;33m[99be8d20][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m23 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230643286 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-146m[AndroidUiautomator2Driver@f1d4][0m 
+[38;5;-146m[AndroidUiautomator2Driver@f1d4][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7a for testing",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;217m[a8df319a][0m[38;5;-146m[AndroidUiautomator2Driver@f1d4][0m Session created with session id: a8df319a-0960-4eb7-b7f6-52eb5f424194
+[38;5;217m[a8df319a][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;217m[a8df319a][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;217m[a8df319a][0m[38;5;-146m[AndroidUiautomator2Driver@f1d4][0m Retrieving device list
+[38;5;217m[a8df319a][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;217m[a8df319a][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;217m[a8df319a][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;217m[a8df319a][0m[38;5;-146m[AndroidUiautomator2Driver@f1d4][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;217m[a8df319a][0m[38;5;-146m[AndroidUiautomator2Driver@f1d4][0m Deleting UiAutomator2 session
+[38;5;217m[a8df319a][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230643306 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;217m[a8df319a][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;217m[a8df319a][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m20 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230643312 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-77m[AndroidUiautomator2Driver@938f][0m 
+[38;5;-77m[AndroidUiautomator2Driver@938f][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7a for testing",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;52m[d175158c][0m[38;5;-77m[AndroidUiautomator2Driver@938f][0m Session created with session id: d175158c-61a7-4472-a571-7473b60ab8db
+[38;5;52m[d175158c][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;52m[d175158c][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;52m[d175158c][0m[38;5;-77m[AndroidUiautomator2Driver@938f][0m Retrieving device list
+[38;5;52m[d175158c][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;52m[d175158c][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;52m[d175158c][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;52m[d175158c][0m[38;5;-77m[AndroidUiautomator2Driver@938f][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;52m[d175158c][0m[38;5;-77m[AndroidUiautomator2Driver@938f][0m Deleting UiAutomator2 session
+[38;5;52m[d175158c][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230643331 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;52m[d175158c][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;52m[d175158c][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m19 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230643334 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;0m[AndroidUiautomator2Driver@8eff][0m 
+[38;5;0m[AndroidUiautomator2Driver@8eff][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7a for testing",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;45m[441be1ff][0m[38;5;0m[AndroidUiautomator2Driver@8eff][0m Session created with session id: 441be1ff-f429-442f-922a-01a4b86cbd43
+[38;5;45m[441be1ff][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;45m[441be1ff][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;45m[441be1ff][0m[38;5;0m[AndroidUiautomator2Driver@8eff][0m Retrieving device list
+[38;5;45m[441be1ff][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;45m[441be1ff][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;45m[441be1ff][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;45m[441be1ff][0m[38;5;0m[AndroidUiautomator2Driver@8eff][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;45m[441be1ff][0m[38;5;0m[AndroidUiautomator2Driver@8eff][0m Deleting UiAutomator2 session
+[38;5;45m[441be1ff][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230643353 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;45m[441be1ff][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;45m[441be1ff][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m20 ms - 656[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"}}[39m
+[38;5;184m[AppiumDriver@9232][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Pixel 7a for testing","appium:udid":"15.0","appium:automationName":"UiAutomator2","appium:app":"/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"},"firstMatch":[{}]}]
+[38;5;184m[AppiumDriver@9232][0m Event 'newSessionRequested' logged at 1725230643355 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;184m[AppiumDriver@9232][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.8) session
+[38;5;184m[AppiumDriver@9232][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@9232][0m Appium's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;184m[AppiumDriver@9232][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;-118m[AndroidUiautomator2Driver@cf7e][0m 
+[38;5;-118m[AndroidUiautomator2Driver@cf7e][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:deviceName": "Pixel 7a for testing",
+    "appium:udid": "15.0",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/app/android/ColorNote+Notepad.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;59m[1de0d4cb][0m[38;5;-118m[AndroidUiautomator2Driver@cf7e][0m Session created with session id: 1de0d4cb-1525-46ae-96ec-ada1d88d3c60
+[38;5;59m[1de0d4cb][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb'
+[38;5;59m[1de0d4cb][0m[38;5;229m[ADB][0m Running '/Users/praveenakunche/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;59m[1de0d4cb][0m[38;5;-118m[AndroidUiautomator2Driver@cf7e][0m Retrieving device list
+[38;5;59m[1de0d4cb][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;59m[1de0d4cb][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;59m[1de0d4cb][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+[38;5;59m[1de0d4cb][0m[38;5;-118m[AndroidUiautomator2Driver@cf7e][0m [ 'Device 15.0 was not in the list of connected devices' ]
+[38;5;59m[1de0d4cb][0m[38;5;-118m[AndroidUiautomator2Driver@cf7e][0m Deleting UiAutomator2 session
+[38;5;59m[1de0d4cb][0m[38;5;184m[AppiumDriver@9232][0m Event 'newSessionStarted' logged at 1725230643374 (15:44:03 GMT-0700 (Pacific Daylight Time))
+[38;5;59m[1de0d4cb][0m[38;5;184m[AppiumDriver@9232][0m Encountered internal error running command: Error: Device 15.0 was not in the list of connected devices
+    at Object.errorWithException (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:41:45)
+    at Object.errorAndThrow (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/support/lib/logging.js:44:18)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:42:24)
+    at AndroidUiautomator2Driver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:365:30)
+    at AppiumDriver.createSession (/Users/praveenakunche/Desktop/SDET/Appium/webdriverio-appium/node_modules/appium/lib/appium.js:731:35)
+[38;5;59m[1de0d4cb][0m[38;5;86m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m19 ms - 656[39m [90m[39m
+[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;184m[AppiumDriver@9232][0m There are no active sessions for cleanup
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 0ms
